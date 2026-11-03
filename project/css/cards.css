@@ -1,0 +1,92 @@
+/* Страница карточек */
+.posts-page {
+    min-height: calc(100vh - 180px);
+    padding: 120px 0 60px;
+    background: #111;
+}
+
+.posts-page h1 {
+    font-size: 42px;
+    margin-bottom: 12px;
+}
+
+.posts-description,
+.posts-status {
+    color: white;
+    text-align: center;
+    margin: 12px 0 24px;
+    font-size: 18px;
+}
+
+.posts-status {
+    color: var(--orange);
+}
+
+.posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.post-card {
+    display: flex;
+    flex-direction: column;
+    min-height: 250px;
+    padding: 22px;
+    background: #2c2d2f;
+    border: 1px solid var(--orange);
+    border-radius: 10px;
+    color: white;
+    overflow-wrap: anywhere;
+}
+
+.post-card h2 {
+    color: var(--orange);
+    font-size: 20px;
+    text-align: left;
+    margin: 12px 0;
+    text-transform: capitalize;
+}
+
+.post-card p {
+    line-height: 1.5;
+    font-size: 15px;
+    flex: 1;
+}
+
+.post-user,
+.post-id {
+    color: #bdbdbd;
+    font-size: 13px;
+}
+
+.post-id {
+    margin-top: 16px;
+}
+
+@media (max-width: 700px) {
+    .container {
+        width: 92%;
+    }
+
+    .posts-page h1 {
+        font-size: 30px;
+    }
+
+    .header {
+        position: static;
+        height: auto;
+        padding: 12px 0;
+    }
+
+    .inner_header {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .menu {
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+}

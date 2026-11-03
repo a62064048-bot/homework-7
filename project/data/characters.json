@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Артур",
+    "role": "Рыцарь",
+    "age": 34,
+    "description": "Храбрый защитник королевства",
+    "photo": "../images/knight.svg"
+  },
+  {
+    "id": 2,
+    "name": "Мерлин",
+    "role": "Маг",
+    "age": 120,
+    "description": "Хранитель древних заклинаний",
+    "photo": "../images/wizard.svg"
+  },
+  {
+    "id": 3,
+    "name": "Элиана",
+    "role": "Лучница",
+    "age": 27,
+    "description": "Лесной следопыт с острым глазом",
+    "photo": "../images/archer.svg"
+  },
+  {
+    "id": 4,
+    "name": "Джек",
+    "role": "Пират",
+    "age": 41,
+    "description": "Капитан, который ищет сокровища",
+    "photo": "../images/pirate.svg"
+  }
+]

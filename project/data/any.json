@@ -1,0 +1,12 @@
+{
+  "title": "Любые данные",
+  "author": "NurDinBuy",
+  "course": "JavaScript",
+  "lesson": "XHR",
+  "topics": [
+    "XMLHttpRequest",
+    "JSON",
+    "GET"
+  ],
+  "active": true
+}
